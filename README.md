@@ -1,5 +1,5 @@
 # README #
-This is a Code Changer for simplified C (C99 Standard), which based on my previous compiler project. I added a few features to my compiler project including new grammar, pretty code printer and the application of Code Changer.
+This is a Code Changer for simplified C (C99 Standard), which based on my previous compiler project. I added a few features to my compiler project including new grammar, pretty code printer and the application of Code Changer. Why there is such a project is a mystery. :D
 
 ## Features ##
 - Support numbers of C99 language features including pointers, complicated variable declarations, unions, etc.
@@ -7,9 +7,12 @@ This is a Code Changer for simplified C (C99 Standard), which based on my previo
 - Support short curcuit expressions in main predication positions.
 
 ## Dependencies && Running ##
-You can work with this project with eclipse. Please make sure your java is 1.7+.  
-This project uses Jflex and Cup, use the batch file in the source folder to generate Parser and Lexer.  
-There is a runnable jar under the project folder. Run it with `java -jar CodeChanger.jar /path/to/a/cpp/input/source/file function_name /path/to/the/entire/project/directory`. It will generate the output source in specific directory with name `output_source.c` and show the output about function call count and list in standard output.  
+You can work with this project with eclipse. Please make sure your java is 1.7+. This project uses Jflex and Cup, use the batch file in the source folder to generate Parser and Lexer.
+
+There is a runnable jar under the project folder. Run it with  
+`java -jar CodeChanger.jar /path/to/a/cpp/input/source/file function_name /path/to/the/entire/project/directory`.   
+It will generate the output source in specific directory with name `output_source.c` and show the output about function call count and list in standard output.
+
 `test1.c` is the original example, and `test2.c` is a more complicated one. You can also find the outputs for them in the project folder. 
 
 ## Notes ##
