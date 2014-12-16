@@ -1,0 +1,5 @@
+package codechanger.absyn;
+
+public abstract class TypeName {
+
+}
